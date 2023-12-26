@@ -26,9 +26,7 @@ function classifyPlayer(result) {
 }
 
 rankingScore = rankedResult(playerWins, playerLosses)
-
 playerRating = classifyPlayer(rankingScore)
 
 let message = `O Herói tem de saldo de **${rankingScore}** está no nível de **${playerRating}**`
-
 console.log(message)
